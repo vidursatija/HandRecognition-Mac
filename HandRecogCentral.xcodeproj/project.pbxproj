@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967E48641DB220CB00754728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48631DB220CB00754728 /* AppDelegate.swift */; };
+		967E48661DB220CB00754728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48651DB220CB00754728 /* ViewController.swift */; };
+		967E48681DB220CC00754728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967E48671DB220CC00754728 /* Assets.xcassets */; };
+		967E486B1DB220CC00754728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967E48691DB220CC00754728 /* Main.storyboard */; };
+		967E48761DB220CC00754728 /* HandRecogCentralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48751DB220CC00754728 /* HandRecogCentralTests.swift */; };
+		967E48811DB220CC00754728 /* HandRecogCentralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48801DB220CC00754728 /* HandRecogCentralUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967E48721DB220CC00754728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967E48581DB220CB00754728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967E485F1DB220CB00754728;
+			remoteInfo = HandRecogCentral;
+		};
+		967E487D1DB220CC00754728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967E48581DB220CB00754728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967E485F1DB220CB00754728;
+			remoteInfo = HandRecogCentral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		967E48601DB220CB00754728 /* HandRecogCentral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandRecogCentral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E48631DB220CB00754728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		967E48651DB220CB00754728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		967E48671DB220CC00754728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967E486A1DB220CC00754728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967E486C1DB220CC00754728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967E48711DB220CC00754728 /* HandRecogCentralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandRecogCentralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E48751DB220CC00754728 /* HandRecogCentralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRecogCentralTests.swift; sourceTree = "<group>"; };
+		967E48771DB220CC00754728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967E487C1DB220CC00754728 /* HandRecogCentralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandRecogCentralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E48801DB220CC00754728 /* HandRecogCentralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRecogCentralUITests.swift; sourceTree = "<group>"; };
+		967E48821DB220CC00754728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967E485D1DB220CB00754728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E486E1DB220CC00754728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E48791DB220CC00754728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967E48571DB220CB00754728 = {
+			isa = PBXGroup;
+			children = (
+				967E48621DB220CB00754728 /* HandRecogCentral */,
+				967E48741DB220CC00754728 /* HandRecogCentralTests */,
+				967E487F1DB220CC00754728 /* HandRecogCentralUITests */,
+				967E48611DB220CB00754728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967E48611DB220CB00754728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967E48601DB220CB00754728 /* HandRecogCentral.app */,
+				967E48711DB220CC00754728 /* HandRecogCentralTests.xctest */,
+				967E487C1DB220CC00754728 /* HandRecogCentralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967E48621DB220CB00754728 /* HandRecogCentral */ = {
+			isa = PBXGroup;
+			children = (
+				967E48631DB220CB00754728 /* AppDelegate.swift */,
+				967E48651DB220CB00754728 /* ViewController.swift */,
+				967E48671DB220CC00754728 /* Assets.xcassets */,
+				967E48691DB220CC00754728 /* Main.storyboard */,
+				967E486C1DB220CC00754728 /* Info.plist */,
+			);
+			path = HandRecogCentral;
+			sourceTree = "<group>";
+		};
+		967E48741DB220CC00754728 /* HandRecogCentralTests */ = {
+			isa = PBXGroup;
+			children = (
+				967E48751DB220CC00754728 /* HandRecogCentralTests.swift */,
+				967E48771DB220CC00754728 /* Info.plist */,
+			);
+			path = HandRecogCentralTests;
+			sourceTree = "<group>";
+		};
+		967E487F1DB220CC00754728 /* HandRecogCentralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				967E48801DB220CC00754728 /* HandRecogCentralUITests.swift */,
+				967E48821DB220CC00754728 /* Info.plist */,
+			);
+			path = HandRecogCentralUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967E485F1DB220CB00754728 /* HandRecogCentral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E48851DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentral" */;
+			buildPhases = (
+				967E485C1DB220CB00754728 /* Sources */,
+				967E485D1DB220CB00754728 /* Frameworks */,
+				967E485E1DB220CB00754728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandRecogCentral;
+			productName = HandRecogCentral;
+			productReference = 967E48601DB220CB00754728 /* HandRecogCentral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967E48701DB220CC00754728 /* HandRecogCentralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E48881DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralTests" */;
+			buildPhases = (
+				967E486D1DB220CC00754728 /* Sources */,
+				967E486E1DB220CC00754728 /* Frameworks */,
+				967E486F1DB220CC00754728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967E48731DB220CC00754728 /* PBXTargetDependency */,
+			);
+			name = HandRecogCentralTests;
+			productName = HandRecogCentralTests;
+			productReference = 967E48711DB220CC00754728 /* HandRecogCentralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		967E487B1DB220CC00754728 /* HandRecogCentralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E488B1DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralUITests" */;
+			buildPhases = (
+				967E48781DB220CC00754728 /* Sources */,
+				967E48791DB220CC00754728 /* Frameworks */,
+				967E487A1DB220CC00754728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967E487E1DB220CC00754728 /* PBXTargetDependency */,
+			);
+			name = HandRecogCentralUITests;
+			productName = HandRecogCentralUITests;
+			productReference = 967E487C1DB220CC00754728 /* HandRecogCentralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967E48581DB220CB00754728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aromatic Studios";
+				TargetAttributes = {
+					967E485F1DB220CB00754728 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					967E48701DB220CC00754728 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 967E485F1DB220CB00754728;
+					};
+					967E487B1DB220CC00754728 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 967E485F1DB220CB00754728;
+					};
+				};
+			};
+			buildConfigurationList = 967E485B1DB220CB00754728 /* Build configuration list for PBXProject "HandRecogCentral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967E48571DB220CB00754728;
+			productRefGroup = 967E48611DB220CB00754728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967E485F1DB220CB00754728 /* HandRecogCentral */,
+				967E48701DB220CC00754728 /* HandRecogCentralTests */,
+				967E487B1DB220CC00754728 /* HandRecogCentralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967E485E1DB220CB00754728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E48681DB220CC00754728 /* Assets.xcassets in Resources */,
+				967E486B1DB220CC00754728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E486F1DB220CC00754728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E487A1DB220CC00754728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967E485C1DB220CB00754728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E48661DB220CB00754728 /* ViewController.swift in Sources */,
+				967E48641DB220CB00754728 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E486D1DB220CC00754728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E48761DB220CC00754728 /* HandRecogCentralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E48781DB220CC00754728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E48811DB220CC00754728 /* HandRecogCentralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967E48731DB220CC00754728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967E485F1DB220CB00754728 /* HandRecogCentral */;
+			targetProxy = 967E48721DB220CC00754728 /* PBXContainerItemProxy */;
+		};
+		967E487E1DB220CC00754728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967E485F1DB220CB00754728 /* HandRecogCentral */;
+			targetProxy = 967E487D1DB220CC00754728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967E48691DB220CC00754728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967E486A1DB220CC00754728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967E48831DB220CC00754728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		967E48841DB220CC00754728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		967E48861DB220CC00754728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		967E48871DB220CC00754728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		967E48891DB220CC00754728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRecogCentral.app/Contents/MacOS/HandRecogCentral";
+			};
+			name = Debug;
+		};
+		967E488A1DB220CC00754728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRecogCentral.app/Contents/MacOS/HandRecogCentral";
+			};
+			name = Release;
+		};
+		967E488C1DB220CC00754728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentralUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HandRecogCentral;
+			};
+			name = Debug;
+		};
+		967E488D1DB220CC00754728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HandRecogCentralUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HandRecogCentral;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967E485B1DB220CB00754728 /* Build configuration list for PBXProject "HandRecogCentral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E48831DB220CC00754728 /* Debug */,
+				967E48841DB220CC00754728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967E48851DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E48861DB220CC00754728 /* Debug */,
+				967E48871DB220CC00754728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		967E48881DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E48891DB220CC00754728 /* Debug */,
+				967E488A1DB220CC00754728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		967E488B1DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E488C1DB220CC00754728 /* Debug */,
+				967E488D1DB220CC00754728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967E48581DB220CB00754728 /* Project object */;
+}
