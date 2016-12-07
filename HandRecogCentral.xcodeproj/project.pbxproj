@@ -13,6 +13,9 @@
 		967E486B1DB220CC00754728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967E48691DB220CC00754728 /* Main.storyboard */; };
 		967E48761DB220CC00754728 /* HandRecogCentralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48751DB220CC00754728 /* HandRecogCentralTests.swift */; };
 		967E48811DB220CC00754728 /* HandRecogCentralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E48801DB220CC00754728 /* HandRecogCentralUITests.swift */; };
+		967E488F1DB2211900754728 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E488E1DB2211900754728 /* MPCManager.swift */; };
+		967E48951DB22C0300754728 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E48941DB22C0300754728 /* MultipeerConnectivity.framework */; };
+		967E48971DB2AA8600754728 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E48961DB2AA8600754728 /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		967E487C1DB220CC00754728 /* HandRecogCentralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandRecogCentralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		967E48801DB220CC00754728 /* HandRecogCentralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRecogCentralUITests.swift; sourceTree = "<group>"; };
 		967E48821DB220CC00754728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967E488E1DB2211900754728 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		967E48941DB22C0300754728 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		967E48961DB2AA8600754728 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967E48971DB2AA8600754728 /* ApplicationServices.framework in Frameworks */,
+				967E48951DB22C0300754728 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,8 @@
 		967E48571DB220CB00754728 = {
 			isa = PBXGroup;
 			children = (
+				967E48961DB2AA8600754728 /* ApplicationServices.framework */,
+				967E48941DB22C0300754728 /* MultipeerConnectivity.framework */,
 				967E48621DB220CB00754728 /* HandRecogCentral */,
 				967E48741DB220CC00754728 /* HandRecogCentralTests */,
 				967E487F1DB220CC00754728 /* HandRecogCentralUITests */,
@@ -97,6 +107,7 @@
 			children = (
 				967E48631DB220CB00754728 /* AppDelegate.swift */,
 				967E48651DB220CB00754728 /* ViewController.swift */,
+				967E488E1DB2211900754728 /* MPCManager.swift */,
 				967E48671DB220CC00754728 /* Assets.xcassets */,
 				967E48691DB220CC00754728 /* Main.storyboard */,
 				967E486C1DB220CC00754728 /* Info.plist */,
@@ -190,13 +201,16 @@
 				TargetAttributes = {
 					967E485F1DB220CB00754728 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					967E48701DB220CC00754728 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 967E485F1DB220CB00754728;
 					};
 					967E487B1DB220CC00754728 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 967E485F1DB220CB00754728;
 					};
 				};
@@ -254,6 +268,7 @@
 			files = (
 				967E48661DB220CB00754728 /* ViewController.swift in Sources */,
 				967E48641DB220CB00754728 /* AppDelegate.swift in Sources */,
+				967E488F1DB2211900754728 /* MPCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +406,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -403,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -415,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRecogCentral.app/Contents/MacOS/HandRecogCentral";
 			};
 			name = Debug;
@@ -428,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRecogCentral.app/Contents/MacOS/HandRecogCentral";
 			};
 			name = Release;
@@ -440,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HandRecogCentral;
 			};
 			name = Debug;
@@ -452,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidursatija.HandRecogCentralUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HandRecogCentral;
 			};
 			name = Release;
@@ -475,6 +496,7 @@
 				967E48871DB220CC00754728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		967E48881DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +505,7 @@
 				967E488A1DB220CC00754728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		967E488B1DB220CC00754728 /* Build configuration list for PBXNativeTarget "HandRecogCentralUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +514,7 @@
 				967E488D1DB220CC00754728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
